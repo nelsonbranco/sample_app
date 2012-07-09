@@ -1,0 +1,41 @@
+" Press ? for help
+
+.. (up a dir)
+/Users/nelsonbranco/rails_projects/sample_app/
+▾ app/
+  ▾ assets/
+    ▾ images/
+        rails.png
+    ▸ javascripts/
+    ▾ stylesheets/
+        application.css
+        custom.css.scss
+        static_pages.css.scss
+  ▸ controllers/
+  ▸ helpers/
+  ▸ mailers/
+  ▸ models/
+  ▾ views/
+    ▾ layouts/
+        application.html.erb
+    ▾ static_pages/
+        about.html.erb
+        contact.html.erb
+        help.html.erb
+        home.html.erb
+▸ config/
+▸ db/
+▸ doc/
+▸ lib/
+▸ log/
+▸ public/
+▸ script/
+▸ spec/
+▸ tmp/
+▸ vendor/
+  config.ru
+  Gemfile
+  Gemfile.lock
+  Guardfile
+  Rakefile
+  README.md
