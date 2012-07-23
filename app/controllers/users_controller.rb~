@@ -13,11 +13,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.save
-      flash[:success] = "Welcome to the sample app!"
+      flash[:success] = " to the sample app!"
       redirect_to @user
-    else 
+    else
+      flash[:error] = "check your errors please"
       render 'new'
-      flash[:error] = "oooops ,try again"
     end
   end
 
